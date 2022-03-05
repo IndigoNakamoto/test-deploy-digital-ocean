@@ -1,3 +1,5 @@
+
+
 module.exports = [
   'strapi::errors',
   {
@@ -11,13 +13,13 @@ module.exports = [
             "'self'",
             "data:",
             "blob:",
-            `${env("DO_SPACE_BUCKET")}.${env("DO_SPACE_ENDPOINT")}`,
+            `DO_SPACE_BUCKET.sfo3.digitaloceanspaces.com`,
           ],
           "media-src": [
             "'self'",
             "data:",
             "blob:",
-            `${env("DO_SPACE_BUCKET")}.${env("DO_SPACE_ENDPOINT")}`,
+            `DO_SPACE_BUCKET.sfo3.digitaloceanspaces.com`,
           ],
           upgradeInsecureRequests: null,
         },
