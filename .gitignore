@@ -112,3 +112,9 @@ exports
 *.cache
 build
 .strapi-updater.json
+
+############################
+# Folders
+############################
+ignore
+test-deploy-digital-ocean.yaml
